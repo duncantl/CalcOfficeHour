@@ -1,0 +1,8 @@
+import(SISRTools)
+import(RCurl)
+import(XML)
+
+export(plotTimes)
+export(mkTimes)
+export(getStudentTimes)
+S3method(plot, "UnavailableTimes")

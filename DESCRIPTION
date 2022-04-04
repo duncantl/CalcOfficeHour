@@ -1,0 +1,15 @@
+Package: CalcOfficeHours
+Title: Find times when students are available
+Version: 0.1-0
+Description: Having separately queried the students' schedules from the courses in which they are enrolled,
+  the functionality here creates a matrix and plot of 30 minute intervals during the day
+  and the number of students who are not in class/discussion/lab at that time.
+  From this, we can determine the times when the largest number of students are available.
+  We get the students' schedule by querying SISR using SISRTools.
+  The user needs to provide the SISR cookie
+Author: DTL
+Maintainer: Duncan Temple Lang <dtemplelang@ucdavis.edu>
+License: BSD
+Imports: SISRTools, RCurl, XML
+
+
